@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:700);
+* {
+  box-sizing: border-box;
+  font-family: "Consolas", monospace;
+  font-size: 14px;
+}
+
+.cc {
+  background-color:#C10100 ;
+  border-radius: 10px;
+  display: block;
+  height: 195px;
+  letter-spacing: 0.1rem;
+  margin: 30px auto;
+  position: relative;
+  text-align: left;
+  text-transform: uppercase;
+  width: 325px;
+}
+
+.cc-inactive{
+  background-color:#808B96;
+}
+
+.chip {
+  background: #efb77f;
+  border-radius: 5px;
+  display: block;
+  height: 30px;
+  left: 30px;
+  position: absolute;
+  top: 50px;
+  width: 40px;
+}
+
+.cc-number {
+  background: linear-gradient(#eee, #999);
+  background-clip: text;
+  bottom: 75px;
+  font-size: 20px;
+  left: 30px;
+  position: absolute;
+  color: #fff
+}
+.cc-date {
+  background: linear-gradient(#eee, #999);
+  background-clip: text;
+  bottom: 40px;
+  left: 30px;
+  position: absolute;
+  color: #fff
+}
+.cc-date.expiry {
+  left: 125px;
+}
+
+.cc-name {
+  background: linear-gradient(#eee, #999);
+  background-clip: text;
+  bottom: 15px;
+  left: 30px;
+  position: absolute;
+  color: #fff
+}
+
+.cc-balance{
+  font-size: 20px;
+}
+
+.balance-amount > input{
+  border: none;
+  font-size: 20px;
+  width: 260px;
+}
+
+
+
